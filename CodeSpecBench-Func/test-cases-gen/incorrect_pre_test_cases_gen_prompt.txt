@@ -1,0 +1,29 @@
+You are given a coding problem described in natural language.
+
+Your task is to write a Python code block containing **20 invalid test case inputs** to evaluate whether the `preconditions(...)` function correctly rejects inputs that violate the specification of the problem.
+
+Here is the problem:
+
+{PROBLEM_DESCRIPTION}
+
+To thoroughly test the robustness of the function, ensure that the test cases:
+
+* Intentionally violate one or more of the stated constraints.
+* Include edge cases that are outside the boundaries of valid inputs.
+* Cover a wide variety of invalid input types, values, and formats.
+* Aim to expose logical errors, unhandled exceptions, and incorrect validation behavior.
+
+**Explicit restrictions:**
+
+* Do **not** generate repetitive patterns.
+* Use **only positional arguments** — do **not** use keyword arguments.
+* Do **not** use excessively large inputs.
+* Do **not** use operators such as `+`, `-`, `*`, `/`, `**`, etc.
+
+Write the test cases in the format:
+
+```python
+preconditions(...)
+```
+
+Your output should be a single Python code block with **20 invalid test cases**, without any explanation or comments.

@@ -1,0 +1,20 @@
+You are given a coding problem described in natural language.
+Your task is to implement two Python functions: `preconditions` and `postconditions`.
+
+* The `preconditions` function should **verify whether the given test input is valid** according to the problem constraints. Use only `assert` statements to check input validity.
+* The `postconditions` function should **verify whether the given output is correct for the given input**, based on the expected behavior defined in the problem. Again, use only `assert` statements.
+
+For both functions:
+
+* Do **not** return any value.
+* Raise `AssertionError` if any condition is violated.
+
+Here is the problem:
+
+{PROBLEM_DESCRIPTION}
+
+Please implement two Python functions, `preconditions` and `postconditions`, **in the same Python code block**, and format your code as follows:
+
+```python
+# YOUR CODE HERE
+```
